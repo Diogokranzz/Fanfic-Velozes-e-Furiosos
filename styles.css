@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #111, #333);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #f00;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.chapter, .characters, .comments, .post {
+    border: 2px solid #f00;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.chapter h2, .post h2 {
+    color: #ffcc00;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #f00;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #c00;
+}
+
+/* Estilos para o formulário de login */
+form {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f00;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #ffcc00;
+}
+
+.comment-list {
+    margin-top: 20px;
+}
+
+.comment {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment button {
+    background-color: #ffcc00;
+    color: #000;
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}

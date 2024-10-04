@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fanfic: Velozes e Furiosos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fanfic: Velozes e Furiosos</h1>
+
+        <form id="loginForm">
+            <div>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">Entrar</button>
+            <p id="error-message" style="color: red;"></p>
+        </form>
+
+        <div class="content" style="display: none;">
+            <div class="chapter">
+                <h2>Capítulo 1: O Retorno de Dom</h2>
+                <p>Depois de uma missão bem-sucedida na Europa, Dom Toretto retorna a Los Santos, onde o passado e os antigos inimigos o aguardam. A equipe se reúne para enfrentar um novo desafio que pode mudar tudo.</p>
+            </div>
+
+            <div class="chapter">
+                <h2>Capítulo 2: A Corrida Inesperada</h2>
+                <p>Enquanto a equipe se prepara, Brian O'Conner recebe um desafio inesperado para uma corrida. Com a adrenalina correndo, ele percebe que o passado não está tão longe quanto parece.</p>
+            </div>
+
+            <div class="article">
+                <h2>Artigo: A História de Velozes e Furiosos</h2>
+                <p>A franquia "Velozes e Furiosos" começou em 2001 e rapidamente se tornou um fenômeno cultural. A série gira em torno de corridas de rua, roubo de carros e laços familiares. Com um elenco carismático, incluindo Vin Diesel e Paul Walker, a saga explora temas de amizade, lealdade e redenção.</p>
+                <p>Com mais de 10 filmes lançados, "Velozes e Furiosos" continua a evoluir, incorporando novas tecnologias e uma diversidade crescente em seu elenco. Os fãs esperam ansiosamente por cada nova entrega, que promete mais ação e emoção do que nunca.</p>
+            </div>
+
+            <div class="characters">
+                <h2>Personagens Principais</h2>
+                <ul>
+                    <li><strong>Dominic Toretto:</strong> O líder da equipe, sempre pronto para proteger sua família.</li>
+                    <li><strong>Brian O'Conner:</strong> O ex-policial que se tornou parte da família Toretto.</li>
+                    <li><strong>Letty Ortiz:</strong> A mecânica habilidosa e amor de Dom, sempre pronta para a ação.</li>
+                </ul>
+            </div>
+
+            <div class="comments">
+                <h2>Comentários</h2>
+                <textarea id="commentInput" rows="4" placeholder="Escreva seu comentário..."></textarea><br>
+                <button id="submitComment">Enviar</button>
+                <div class="comment-list" id="commentList"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Fanfic Velozes e Furiosos</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
